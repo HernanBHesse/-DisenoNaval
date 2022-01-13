@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -35,6 +36,59 @@ body {
     margin: 0;
     padding: 0.5rem 0 0 0;
     height: 3rem;
+}
+
+.logo {
+    animation-name: animar;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes animar {
+    0% {
+        transform: rotate(0deg) translateX(50px);
+    }
+    
+    10% {
+        transform: rotate(-5deg) translateX(45px);
+    }
+    
+    20% {
+        transform: rotate(0deg) translateX(40px);
+    }
+
+    30% {
+        transform: rotate(5deg) translateX(35px);
+    }
+    
+    40% {
+        transform: rotate(0deg) translateX(30px);
+    }
+    
+    50% {
+        transform: rotate(-5deg) translateX(25px);
+    }
+    
+    60% {
+        transform: rotate(0deg) translateX(20px)
+    }
+    
+    70% {
+        transform: rotate(5deg) translateX(15px)
+    }
+    
+    80% {
+        transform: rotate(0deg) translateX(10px);
+    }
+    
+    90% {
+        transform: rotate(-5deg) translateX(5px);
+    }
+    
+    100% {
+        transform: rotate(0deg) translateX(0px);
+    }
 }
 
 /* Menus */
