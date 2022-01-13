@@ -820,8 +820,7 @@ h4 {
         font-size: 2rem;
     }
 
-    .imagenInicio img,
-    .imagenNosotros img {
+    .imagenInicio, .imagenNosotros {
         display: none;
     }
 
@@ -1033,11 +1032,6 @@ h4 {
 
     h1 {
         font-size: 1.5rem;
-    }
-
-    .imagenInicio img,
-    .imagenNosotros img {
-        display: none;
     }
 
     .textoNosotros {
