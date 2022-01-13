@@ -6,12 +6,9 @@
 }
 
 body {
-    background-image: url(../assets/img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);    
 }
-
 
 /* Header general */
 
@@ -288,7 +285,6 @@ header ul li:hover ul {
     grid-area: 2 / 1 / 5 / 5;
     justify-self: center;
     align-self: stretch;
-
 }
 
 .section1--inicio,
@@ -319,10 +315,22 @@ h1 {
     color: #000;
 }
 
+.imagenInicio, .imagenNosotros {
+    margin: 1rem;
+    padding: 1rem;
+    background-image: url(../assets/img/fondo.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+}
+
 .imagenInicio img,
 .imagenNosotros img {
     height: 20rem;
 }
+
 
 .textoNosotros {
     padding: 1rem;
