@@ -1093,5 +1093,17 @@ h4 {
         grid-area: 4 / 1 / 5 / 4;
     }
 
+    /* Nosotros */
+    /* No es necesario alterar más el contenido */
 
+    /* Contacto */
+
+    .form__label {
+        width: 80%;
+    }
+
+    .form__input,
+    .form__textarea {
+        width: 80%;
+    }
 }
