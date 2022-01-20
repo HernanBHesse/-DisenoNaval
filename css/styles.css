@@ -765,17 +765,6 @@ h4 {
         border: 0;
     }
 
-    /* Icono submenu */
-
-    .fa-sort-down {
-        visibility: hidden;
-        width: 0;
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-
     /* Footer general */
 
     .footer__padre {
