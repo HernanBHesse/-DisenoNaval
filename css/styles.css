@@ -408,22 +408,24 @@ h3 {
 
 .article1--noticias {
     grid-area: 3 / 1 / 6 / 3;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin: 0 1rem 0 1rem;
-    padding: 0 1rem 0 1rem;
-    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    width: 95%;
 }
 
 .article2--noticias {
     grid-area: 3 / 3 / 6 / 5;
+    justify-self: center;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin: 0 1rem 0 1rem;
-    padding: 0 1rem 0 1rem;
-    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    width: 95%;
 }
 
 .article1--noticias iframe,
